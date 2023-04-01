@@ -2,13 +2,15 @@
 
 This is a financial application that enables businesses and individuals to send and receive money across different currencies. The REST APIs allow a user to transfer funds from one currency to another.
 
-### Specifications
+### Specification
+
 - Users are able to sign up using their email and password. 
 - On successful profile creation, they are auto (randomly) assigned an account number with a balance in either currency A or B
 - Users are able to log in using a username and password
 - Users are able to transfer money from their account to another account regardless of the currencies
 - Users are able to get their account balance and transaction history
 - There are only 2 currencies, currency A & B, which exchange rate A → B: 1.3455
+
 ---
 
 ### Step One - Tools and Technologies used 🎼
@@ -61,7 +63,7 @@ git clone https://github.com/michaelik/Financial-Based-REST-Service-APIs.git
 | GET         |     `/api/v1/user-detail`     | 200         |          Read account detail          |
 | GET         |   `/api/v1/account-balance`   | 200         |         Read account balance          |
 | POST        |      `/api/v1/transfer`       | 200         |             Make transfer             |
-| GET         | `/api/v1/transaction-history` | 200         |       Read Transaction History        |
+| GET         | `/api/v1/transaction-history` | 200         |       Read transaction history        |
 | POST        |    `/api/v1/fund-account`     | 200         |    Fund your newly created account    |
 
 ---
